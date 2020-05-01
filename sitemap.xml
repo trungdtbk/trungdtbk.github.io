@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://codingclub.vietkidsnz.org/</loc>
+    <lastmod>2020-03-23T03:18:18+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codingclub.vietkidsnz.org/tutorials/create-a-simple-scratch-app/</loc>
+    <lastmod>2020-03-23T03:18:18+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codingclub.vietkidsnz.org/tutorials/</loc>
+    <lastmod>2020-03-23T03:18:18+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://codingclub.vietkidsnz.org/pages/discuss/</loc>
   </url>
   
@@ -19,10 +34,6 @@
   </url>
   
   <url>
-    <loc>https://codingclub.vietkidsnz.org/</loc>
-  </url>
-  
-  <url>
     <loc>https://codingclub.vietkidsnz.org/pages/</loc>
   </url>
   
@@ -32,10 +43,6 @@
   
   <url>
     <loc>https://codingclub.vietkidsnz.org/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://codingclub.vietkidsnz.org/tutorials/</loc>
   </url>
   
 </urlset>

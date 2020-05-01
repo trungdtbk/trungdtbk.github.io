@@ -6,9 +6,21 @@
     <description>Recent content on CodingClub-VietKidsNZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Mon, 23 Mar 2020 03:18:18 +1200</lastBuildDate>
     
 	<atom:link href="https://codingclub.vietkidsnz.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Create a Simple Scratch App</title>
+      <link>https://codingclub.vietkidsnz.org/tutorials/create-a-simple-scratch-app/</link>
+      <pubDate>Mon, 23 Mar 2020 03:18:18 +1200</pubDate>
+      
+      <guid>https://codingclub.vietkidsnz.org/tutorials/create-a-simple-scratch-app/</guid>
+      <description>This tutorial shows you how to create your first ever project in Scratch. A Scratch project is an application (or app for short) which can be anything from game to music video or an animated story. The tutorial will also explain what makes up an application in Scratch. Let&amp;rsquo;s get started.
+Read more about Scratch project here
+To create a Scratch project, open Scratch (you will need an account if you want to save and share your work), then select Create.</description>
+    </item>
     
     <item>
       <title></title>
