@@ -1,0 +1,198 @@
+html, body {
+  background: rgb(0,0,0);
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(/images/bg.jpg);
+  background-repeat: repeat-y;
+  background-position: center top;
+  /* background-size: contain; */
+  background-size: auto 100%;
+}
+
+section {
+  font-family: 'Open Sans', sans-serif;
+}
+
+section .card-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2em;
+}
+
+section .card-subtitle {
+  font-size: 0.8em;
+}
+
+section h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+}
+
+section h1 {
+  font-size: 1.5em;
+}
+
+section h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+section h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+section p {  
+  font-size: 1em;
+}
+
+.light-bg {
+  background-color: rgba(253, 234, 188, 0.835);
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+
+i {  
+  margin: 0 5px 0 5px;
+}
+
+.emoji {
+  font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
+}
+
+.navbar {
+  background-color: #2b3d6b;
+}
+
+.b-header {
+  border-top: 5px solid rgb(3, 86, 119);
+  border-bottom: 5px solid rgb(3, 86, 119);
+  color: rgb(240, 240, 28);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2em;
+}
+
+.section-projects .card-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;   
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100% !important;
+   height: 150% !important;
+   overflow: auto;
+}
+
+.masonry-container {  
+  /* max-width: 100%; */
+  /* margin: 10px; */
+  /* margin: auto; */
+  height: 100%;
+}
+
+.masonry-container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.masonry-sizer,
+.masonry-item {
+  width: 240px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.masonry-item-large {
+  width: 350px;
+}
+
+.masonry-gutter {
+  width: 10%;
+}
+
+/* h1 {
+  border-style: outset;
+} */
+
+/* @media only screen and (min-width: 600px) {
+  .masonry-sizer,
+  .masonry-item { 
+    width: 400px; 
+  } 
+} */
+
+/* .masonry-item {  
+  margin: 10px;  
+  box-sizing: border-box;
+  display:inline;
+  border-radius: 10px 10px 0 0;
+  height: 120px; 
+  background: #D26; 
+  float: left;
+  border: 1px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+  width: 25%;
+  margin-bottom: 10px;
+} */
+
+.masonry-item-img {
+  max-width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.stretched-link:hover:after {
+  border: 3px solid cyan;
+  opacity: 1;  
+}
+
+.btn.btn-primary {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #BEBEBE, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #f9f9f9;
+}
+
+.hello-text {  
+  font-size: 4em;
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  padding-top: 20px;
+  /* font: bold 52px Helvetica, Arial, Sans-Serif; */
+  text-shadow: 1px 1px #a59e9b,
+               2px 2px #a59e9b, 
+               3px 3px #a59e9b,
+               4px 4px #a59e9b,
+               5px 5px #a59e9b;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;  
+  width: 80%;
+  height: 300px;
+  transform: translate(-50%, -55%);
+}
